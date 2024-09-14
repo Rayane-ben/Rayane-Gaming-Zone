@@ -1,0 +1,414 @@
+body{
+    height: 250vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    background-image: url(images_rgz/aa2da09eed54a1f6883fcf69e14eec09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+nav{
+    height: 35%;
+    width: 50%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006FCD;
+    border-radius: 20px;
+    border: 3px solid #012c52;
+}
+li{
+    list-style: none;
+    color: white;
+    margin: 65px;
+    font-family: 'poppins'; 
+    font-size: 900;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+li:hover{
+    transform: scale(1.1);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .playstationproducts{
+    height: 100%;
+    width: 85%;
+    box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09);    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-family: 'poppins';
+}
+main .playstationproducts .consoles{
+    height: 23%;
+    width: 90%;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+    border-radius: 25px;
+}
+main .playstationproducts .consoles .descconsole{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    font-family: 'poppins'; 
+    justify-content: end;
+    border-radius: 25px;
+    background-image: url(images_rgz/e9b9dd0990cf2d34203aedfaf8d333f0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 -20px 0px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset;
+}
+main .playstationproducts .consoles .psconsole{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 90%;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.consoles .psconsole .ps4{
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);
+    border-radius: 20px; 
+}
+.consoles .psconsole .ps4 .imgps4{
+    height: 47%;
+    width: 79%;
+    background-image: url(images_rgz/133ecfe6c0b9a3cd3985ead81ec12c4e.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: all 0.5s ease-in-out;
+}
+.consoles .psconsole .ps4 .imgps4:hover{
+    transform: scale(1.2);
+}
+.consoles .psconsole .ps5{
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start; 
+    box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+.consoles .psconsole .ps5 .imgps5{
+    height: 47%;
+    width: 79%;
+    background-image: url(images_rgz/d5d5ac81931f4afde199057d15e40c37.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: all 0.5s ease-in-out;
+}
+.consoles .psconsole .ps5 .imgps5:hover{
+    transform: scale(1.2);
+}
+main .playstationproducts .accessories{
+    height: 23%;
+    width: 90%;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100%;
+    border-radius: 25px;
+}
+main .playstationproducts .accessories .psaccessories{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 90%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+main .playstationproducts .accessories .descaccessories{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    font-family: 'poppins'; 
+    padding-right: 50px;
+    background-image: url(images_rgz/3f482bbb3169ad6e155088352e72b54b.jpg);
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 -20px 0px -20px rgba(0,0,0,0.45) inset, -20px 0 10px -20px rgba(0,0,0,0.45) inset;
+    
+}
+.bare{
+    width: 80%;
+    height: 15px;
+    background-color: #DCDCDC;
+    border-radius: 5px;
+}
+.colorblue{
+    width: 80%;
+    height: 100%;
+    background-color: #006FCD;
+    transform: scaleX(1);
+    transition: transform 1s ease-in-out;
+    border-radius: 5px;
+}
+.accessories .psaccessories .ps4ctrl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins'; 
+    justify-content: start;
+    box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+.accessories .psaccessories .ps4ctrl .imgcrtlps4{
+    height: 47%;
+    width: 46%;
+    background-image: url(images_rgz/photo-1585102664582-d3f574466cf5-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: all 0.5s ease-in-out;
+}
+.accessories .psaccessories .ps4ctrl .imgcrtlps4:hover{
+    transform: scale(1.3);
+}
+.accessories .psaccessories .ps5ctrl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins'; 
+    justify-content: start;
+    border-radius: 20px;
+    box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);
+    transition: all 0.5s ease-in-out;
+}
+.accessories .psaccessories .ps5ctrl .imgcrtlps5{
+    height: 47%;
+    width: 46%;
+    background-image: url(images_rgz/10711870439474-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: all 0.5s ease-in-out;
+}
+.accessories .psaccessories .ps5ctrl .imgcrtlps5:hover{
+    transform: scale(1.3);
+}
+.mybutton1{
+    height: 10%;
+    width: 45%;
+    background-color: #006FCD;
+    border-radius: 20px;
+    font-family: 'poppins'; 
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 8px;
+}
+.mybutton1:hover{
+    transform: scale(0.9);
+}
+main .playstationproducts .games{
+    height: 45%;
+    width: 90%;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+main .playstationproducts .descgames{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: url(images_rgz/aa2da09eed54a1f6883fcf69e14eec09.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top;
+    transition: all 0.7s ease-in-out;
+
+}
+main .playstationproducts .descgames:hover{
+    transform: scale(0.9);
+}
+.games .descgames p{
+    color: white;
+    font-family: 'poppins';
+    font-size: large;
+}
+main .playstationproducts .psgames{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 40% 40%;
+    row-gap: 50px;
+    column-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 40px;
+    font-family: 'poppins';
+}
+main .playstationproducts .psgames .choice{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 15px;
+    border: 3px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5);
+}
+.psgames .choice .imggame0{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-image: url(images_rgz/fc-25-standard-cover-v0-19e17zsww2dd1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame1{
+    height: 70%;
+    width: 95%;
+    margin-top: 5px;
+    border-radius: 35px;
+    background-image: url(images_rgz/960x0.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame2{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/Resident_Evil_4_remake_cover_art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.psgames .choice .imggame3{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/Forza_Horizon_5_cover_art.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame4{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/which-cover-art-do-you-prefer-v0-e5776n5rw1ka1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame5{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/red_dead_redemption_2_cover_art_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame6{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/GTAIV-Boxart.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .imggame7{
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(images_rgz/BG2SpcKCEAEeLeb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.psgames .choice .price{
+    height: 30%;  
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.psgames .choice .price .mybutton{
+    height: 35%;
+    width: 55%;
+    background-color: #006FCD;
+    border-radius: 20px;
+    font-family: 'poppins';
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+main .playstationproducts .psgames .choice:hover{
+    transform: scale(1.1);
+    
+}
+.psgames .choice .price .mybutton:hover{
+    transform: scale(0.9);
+
+}
+

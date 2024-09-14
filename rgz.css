@@ -1,0 +1,252 @@
+body{
+    height: 180vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+
+}
+header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    
+}
+header .logo{
+    height: 80%;
+    width: 8%;
+    border-radius: 20px;
+    background-image: url(images_rgz/982c4403-b80d-4b0d-92b8-89d4ede7673e.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 400px;
+    margin-left: 25px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 37%;
+    width: 35%;
+    background-color: red;
+    border-radius: 20px;
+}
+li{
+    list-style: none;
+    color: white;
+    margin: 40px;
+    font-family: 'poppins'; 
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+li:hover{
+    transform: scale(1.1);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url(images_rgz/a0edaec1b2d6943eda04c4b3fa96d24c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main .description{
+    height: 52%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 30%;
+    grid-template-rows: 90%;
+    gap: 15%;
+    align-content: space-around;
+}
+.description .desc1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.description .desc1 .button{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.description .perso{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end; 
+}
+.description .perso .imgperso{
+    height: 68%;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(images_rgz/674f53bc1e38ec1fa13614a353ec22ac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+main .description .desc1 h2{
+    color: red;
+    font-family: 'poppins';
+    font-size: 27px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+main .description .desc1 h3{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 20px;
+    margin-bottom: 35px;    
+}
+.mybutton a{
+    text-decoration: none;
+    color: white;
+}
+#button1{
+    width: 20%;
+    height: 35%;
+    background: transparent;
+    border: solid red ;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    font-family: 'poppins';
+    margin-right: 120px;
+    margin-left: 40px;
+}
+#button2{
+    width: 20%;
+    height: 35%;
+    background: red;
+    border: solid red;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+main .ourservices{
+    height: 48%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourservices .platforms{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ourservices .platforms .visit{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 0;
+    transition: all 0.5s ease-in-out;
+}
+.ourservices .platforms .visit p{
+    padding-left: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    margin-top: 0;
+}
+.ourservices .platforms .visit .mybutton{
+    height: 8%;
+    width: 30%;
+    background-color: red;
+    color: white;
+    border: #00C896;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.ourservices .platforms .visit .xbox{
+    height: 45%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(images_rgz/0f7546e2eb94c129598b9e4094a0da86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ourservices .platforms .visit .playstation{
+    height: 45%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(images_rgz/9d55693c4a6bcf7d9a80b18ec06dd2c1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.ourservices .platforms .visit .Nintendo{
+    height: 45%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(images_rgz/f6aa3b0c44a8086cfe627d9cdfdb3910.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.visit a:hover{
+    border-bottom: 4px solid red;
+
+}
+.ourservices .platforms .visit:hover{
+    transform: scale(1.1);
+}
+
+
+
+
